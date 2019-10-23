@@ -14,7 +14,7 @@ A **progressive static-site generator** for React.
 
 React-Static is a fast, lightweight, and powerful progressive static site generator based on React and its ecosystem. It resembles the simplicity and developer experience you're used to in tools like **Create React App** and has been carefully designed for **performance, flexibility, and user/developer experience**.
 
-## Features
+## Highlights
 
 - ⚛️ 100% React (and friends!)
 - 🚀 [Blazing](https://twitter.com/acdlite/status/974390255393505280) fast builds and performance.
@@ -74,7 +74,7 @@ React-Static is a fast, lightweight, and powerful progressive static site genera
 
 ## Quick Start
 
-- Install the CLI tool:
+1. Install the CLI tool:
 
 ```bash
 $ npm i -g react-static
@@ -82,13 +82,13 @@ $ npm i -g react-static
 $ yarn global add react-static
 ```
 
-- Start a new project!
+2. Start a new project!
 
 ```bash
 $ react-static create
 ```
 
-- Need some help?
+3. Need some help?
 
 ```bash
 $ react-static --help
