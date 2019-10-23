@@ -1,5 +1,7 @@
 ![React Static Logo](https://github.com/react-static/react-static/raw/master/media/react-static-logo-2x.png)
 
+<br/>
+
 [![Travis CI Build Status](https://travis-ci.org/react-static/react-static.svg?branch=master)](https://travis-ci.org/react-static/react-static) [![David Dependancy Status](https://david-dm.org/react-static/react-static.svg)](https://david-dm.org/react-static/react-static) [![npm package v](https://img.shields.io/npm/v/react-static.svg)](https://www.npmjs.org/package/react-static) [![npm package dm](https://img.shields.io/npm/dm/react-static.svg)](https://npmjs.com/package/react-static) [![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/react-static)
 [![Github Stars](https://img.shields.io/github/stars/react-static/react-static.svg?style=social&label=Star)](https://github.com/react-static/react-static) [![Twitter Follow](https://img.shields.io/twitter/follow/reactstaticjs.svg?style=social&label=Follow)](https://twitter.com/reactstaticjs)
 
@@ -14,6 +16,19 @@ A **progressive static-site generator** for React.
 
 React-Static is a fast, lightweight, and powerful progressive static site generator based on React and its ecosystem. It resembles the simplicity and developer experience you're used to in tools like **Create React App** and has been carefully designed for **performance, flexibility, and user/developer experience**.
 
+## Highlights
+
+- ⚛️: 100% React (and friends!)
+- 🚀: Blazing fast builds and performance.
+- 🚚: Data Agnostic. Supply your site with data from anywhere, however you want!
+- ✂️: Automatic code and data splitting!
+- 💥: Instant navigation and page views
+- ☔️: Progressively Enhanced and mobile-ready
+- 🎯: SEO Friendly.
+- 🥇: React-centric developer experience.
+- 😌: Painless project setup & migration.
+- 💯: Supports 100% of the React ecosystem. Including CSS-in-JS libraries, custom Query layers like GraphQL, and even Redux.
+- 🔥: Hot Reloadable out-of-the-box. Edit React components, styles and even data in real-time.
 
 ## Sites Built with React-Static
 
