@@ -30,49 +30,13 @@ React-Static is a fast, lightweight, and powerful progressive static site genera
 - **💯**: Supports 100% of the React ecosystem. Including CSS-in-JS libraries, custom Query layers like GraphQL, and even Redux.
 - **🔥**: Hot Reloadable out-of-the-box. Edit React components, styles and even data in real-time.
 
-## Sites Built with React-Static
+## Examples
 
-<details>
- <summary>See a list of sites</summary>
-
-- [HeadlessCMS.org](https://headlesscms.org) ([source](https://github.com/netlify/headlesscms.org))
-- [StaticGen.com](https://staticgen.com) ([source](https://github.com/netlify/staticgen))
-- [Starbucks: Careers Hub](https://www.starbucks.com/careers/)([source](https://twitter.com/codehitchhiker/status/1097558315020832774))
-- [Starbucks: Rewards](https://www.starbucks.com/rewards/comingsoon)([source](https://twitter.com/davidbrunelle/status/1108041167935922176))
-- [Intuit Turbo](http://turbo.com)
-- [Timber.io](https://timber.io)
-- [TannerLinsley.com](https://tannerlinsley.com) ([source](https://github.com/tannerlinsley/tannerlinsley.com))
-- [Manta.life](https://manta.life) ([source](https://github.com/MantaApp/Website))
-- [Manticore Games](http://manticoregames.com)
-- [BlackSandSolutions.co](https://www.blacksandsolutions.co)
-- [David York - Personal Blog](http://davideyork.com)
-- [Cryptagon - Crypto Portfolio Tracker](https://cryptagon.io 'Crypto Portfolio Tracker')
-- [Typetalk - Chat App for Businesses and Teams](https://www.typetalk.com 'Chat App for Businesses and Teams')
-- [Lam Hieu - Personal Website](https://lamhieu.info)
-- [Elsa Salonen - Artist Portfolio](https://elsasalonen.com/)
-- [PSD Wizard: On-demand Front-End Coding Service](https://psdwizard.com)
-- [NYC Vintage Map](https://nycvintagemap.com)
-- [Eldar Labs - Utilities and Productivity Tools](https://eldarlabs.com)
-- [Dan Webb - Personal Website](https://danwebb.co) ([source](https://github.com/DanWebb/danwebb.co))
-- [Messenger Corp. client asset ordering](http://chartwells.messengercorp.com/)
-- [Digital Neighborhood watch service](https://neighborhoodwatch.io/)
-- [Carmen Marcos Art - Artist Portfolio](http://carmen-marcos.art/) ([source](https://github.com/rafacm/carmen-marcos-art-portfolio))
-- [BlockAce - Blockchain Jobs Board](https://blockace.io 'The Best Blockchain Jobs Board')
-- [Luke Haas - Personal Website](https://lukehaas.me)
-- [KleineKoning.nl - Webshop](https://kleinekoning.nl)
-- [blue-frontend.com - Company Website](https://blue-frontend.com)
-- [mmxp.com.br - MadeiraMadeira Experience](https://www.mmxp.com.br/)
-- [Fullstack HQ: Web Design & Development Team in the Philippines](https://fullstackhq.com/)
-- [Be Clever: Games for kids and parents](https://beclever.cc)
-- [Stoplight: Best in class API Design, Docs, Mocking, and Testing](https://stoplight.io) ([source](https://github.com/stoplightio/stoplight.io))
-- [WordFlow: Copywriting service](https://www.wordflow.ie/) ([source](https://github.com/nathanpower/wordflow-site))
-- [Amplify Credit Union](https://www.goamplify.com)
-- [Rebel Breath](https://www.rebelbreath.com/)
-- [Fourth Drive - Music Artist](https://fourthdrive.com)  ([source](https://gitlab.com/galmargalit1/fourth-drive))
-- [Weekly Best of JavaScript](https://weekly.bestofjs.org/) ([source](https://github.com/bestofjs/bestofjs-weekly))
-- [United Income - Company Website](https://unitedincome.com/)
-</details>
-
+- [HeadlessCMS.org](https://headlesscms.org) - HeadlessCMS.org
+- [StaticGen.com](https://staticgen.com) - StaticGen.com
+- [Starbucks: Careers Hub](https://www.starbucks.com/careers/) - Starbucks: Careers Hub
+- [Intuit Turbo](http://turbo.com) - Intuit Turbo
+- [Timber.io](https://timber.io) - Timber.io
 
 ## Installation
 
