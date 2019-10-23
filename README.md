@@ -59,7 +59,7 @@ React-Static is a fast, lightweight, and powerful progressive static site genera
 </details>
 
 
-## Quick Start
+## Installation
 
 1. Install the CLI tool:
 
