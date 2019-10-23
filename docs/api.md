@@ -15,11 +15,11 @@ React-Static is packed with awesome components, hooks, and functions to help you
   - [makePageRoutes](#makePageRoutes)
   - [createSharedData](#createSharedData)
 
-# `react-static`
+# react-static
 
 The following functions are available via the `react-static` import. They are primarily for use in the browser environment, but are also available for use in `browser.api.js` plugin files, too.
 
-## `Routes`
+## Routes
 
 React Static handles all of your routing for you using `react-router` under the hood. All you need to do is import `Routes` and specify where you want to render them:
 
@@ -36,7 +36,7 @@ export default () => (
 
 The routes that will be rendered are the **routes** returned by the `getRoutes` function of this config.
 
-### Custom `Routes` Rendering
+### Custom Routes Rendering
 
 Occasionally, you may need to render the automatic `<Routes>` component in a custom way. The most common use-case is for rendering animated routes, described further in the [animated-routes](https://github.com/react-static/react-static/tree/master/examples/animated-routes) guide. To do this, utilize a `render` prop:
 
@@ -62,7 +62,7 @@ export default () => (
 - `getComponentForPath(pathname) => ReactElement` - Takes a pathname and returns an element (if a route exists) to render that path. Returns `false` if no route is found.
 - `routePath: String` - The path of the current route. You can pass it to `getComponentForPath`.
 
-## `useRouteData`
+## useRouteData
 
 Via suspense, the `useRouteData` hook asynchronously provides the results of a **routes's** `getData` function as defined in your `static.config.js`. If you are unable to use a hook in your component, you may also use the `RouteData` component or `withRouteData` HOC to access routeData, though we suggest refactoring to hooks for future releases.
 
@@ -101,7 +101,7 @@ export default () => {
 }
 ```
 
-## `useSiteData`
+## useSiteData
 
 Via suspense, the `useSiteData` hook asynchronously provides the results of the `getSiteData` function as defined in your `static.config.js`.
 
@@ -136,7 +136,7 @@ export default () => {
 
 Note: Make sure to wrap components using `useSiteData()` with React's `<Suspense fallback="..."></Suspense>`. More information on the subject is available [here](https://reactjs.org/docs/react-api.html#reactsuspense).
 
-## `Head`
+## Head
 
 `Head` is a react component for managing tags in the document's `head`. Use it to update meta tags, title tags, etc.
 
@@ -162,7 +162,7 @@ export () => (
 )
 ```
 
-## `usePrefetch`
+## usePrefetch
 
 The `usePrefetch` hook binds the prefetching of a specific `path`'s assets to the visibility of an element. When the ref's element becomes visible in the viewport, the template and data required to render the route for the `path` will be prefetched.
 
@@ -190,7 +190,7 @@ export default () => {
 
 Note: It's critical that the `ref.current` value passed to `usePrefetch` resolves to an actual dom element. Otherwise an error will be thrown.
 
-## `prefetch`
+## prefetch
 
 `prefetch` is an imperative version of the `usePrefetch` hook that you can use anywhere in your code.
 
@@ -205,7 +205,7 @@ const myFunc = async () => {
 }
 ```
 
-## `addPrefetchExcludes`
+## addPrefetchExcludes
 
 `addPrefetchExcludes` allows you to register dynamic route exclusions at runtime, so as to not produce 404 errors when attempting to preload static data / templates that link to these routes.
 
@@ -227,11 +227,11 @@ addPrefetchExcludes(['dynamic', /admin/i])
 // ...
 ```
 
-# `react-static/node`
+# react-static/node
 
 The following functions are available as exports from the `react-static/node` module. They are a separate import so that they may be used **primarily** in your static.config.js and node.api.js plugin files.
 
-## `rebuildRoutes`
+## rebuildRoutes
 
 Intended for use in your `static.config.js` during development. When called it will rebuild all of your routes and routeData by calling `config.getRoutes()` again. Any new routes or data returned will be hot-reloaded into your running development application. Its main use cases are very applicable if your routes or routeData are changing constantly during development and you do not want to restart the dev server. You can use this method to reload when local files are changed, update at a set timing interval, or even subscribe to an event stream from an API or CMS.
 
@@ -267,7 +267,7 @@ export default {
 }
 ```
 
-## `makePageRoutes`
+## makePageRoutes
 
 A utility function to aid in splitting an array of items into separate pages for use in your `static.config.js`
 
@@ -329,7 +329,7 @@ export default {
 }
 ```
 
-## `createSharedData`
+## createSharedData
 
 Each route's `getData` function results in a separate data file for each route being stored as JSON next to the routes HTML on export. This covers the 90% use case for data splitting, but if you want even more control and want to optimize repeated data across routes, you can use this function to create shared data fragments for use in your routes.
 

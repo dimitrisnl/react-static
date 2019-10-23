@@ -29,7 +29,7 @@ A `static.config.js` file is optional, but recommended at your project root to u
 - [babelExcludes](#babelExcludes)
 - [productionSourceMaps](#productionSourceMaps)
 
-### `getRoutes`
+### getRoutes`
 
 An asynchronous function that should resolve an array of [**route**](#route) objects. You'll probably want to use this function to request any dynamic data or information that is needed to build all of the routes for your site. It is also passed an object containing a `dev` boolean indicating whether it's being run in a production build or not.
 
@@ -42,7 +42,7 @@ export default {
 
 **Awesome Tip: Changes made to `static.config.js` while the development server is running will automatically run `getRoutes` again and any changes to routes or routeData will be hot-reloaded instantly! Don't want to edit/resave your config file? Try using [`rebuildRoutes`](/docs/api.md/#rebuildRoutes)!**
 
-### `route`
+### route`
 
 A route is an `object` that represents a unique location in your site and is the backbone of every React-Static site.
 
@@ -105,7 +105,7 @@ export default {
 }
 ```
 
-### `getSiteData`
+### getSiteData`
 
 `getSiteData` is very similar to a route's `getData` function, but its result is made available to the entire site via the [`useSiteData`](api.md#usesitedata) hook, `SiteData` component and the `getSiteData` HOC. Any data you return here, although loaded once per session, will be embedded in every page that is exported on your site. So tread lightly ;)
 
@@ -121,7 +121,7 @@ export default {
 }
 ```
 
-### `siteRoot`
+### siteRoot`
 
 Your `siteRoot` in the format of `protocol://domain.com` is highly recommended and is necessary for many things related to SEO to function for your site. So far, this includes:
 
@@ -138,11 +138,11 @@ export default {
 }
 ```
 
-### `stagingSiteRoot`
+### stagingSiteRoot`
 
 Works exactly like `siteRoot`, but only when building with the `--staging` build flag.
 
-### `basePath`
+### basePath`
 
 Your `basePath` in the format of `some/route` is necessary if you intend on hosting your app from a specific route on your domain (eg. When using Github Pages or for example: `https://mysite.com/blog` where `blog` would the `basePath`)
 **All leading and trailing slashes are removed automatically**.
@@ -156,35 +156,35 @@ export default {
 }
 ```
 
-### `stagingBasePath`
+### stagingBasePath`
 
 Works exactly like `basePath`, but only when building with the `--staging` build flag.
 
-### `devBasePath`
+### devBasePath`
 
 Works exactly like `basePath`, but only when running the dev server.
 
-### `assetsPath`
+### assetsPath`
 
 Your `assetsPath` determines where your bundled JS and CSS will be loaded from. This is helpful if you want to host your assets in an external location such as a CDN.
 
-### `devAssetsPath`
+### devAssetsPath`
 
 Works exactly like `assetsPath`, but only when running the dev server.
 
-### `stagingAssetsPath`
+### stagingAssetsPath`
 
 Works exactly like `assetsPath`, but only when building with the `--staging` build flag.
 
-### `extractCssChunks`
+### extractCssChunks`
 
 `extractCssChunks` replaces default `ExtractTextPlugin` with `ExtractCssChunks`. It enables automatic CSS splitting into separate files by routes as well as dynamic components (using `react-universal-component`). More information about the [plugin](https://github.com/faceyspacey/extract-css-chunks-webpack-plugin) and [why it is useful as a part of CSS delivery optimisation](https://github.com/faceyspacey/extract-css-chunks-webpack-plugin#what-about-glamorous-styled-components-styled-jsx-aphrodite-etc). Defaults to `false`.
 
-### `inlineCss`
+### inlineCss`
 
 By using `extractCssChunks` option and putting code splitting at appropriate places, your page related CSS file can be minimal. This option allows you to inline your page related CSS in order to speed up your application by reducing the number of requests required for a first paint. Default to `false`.
 
-### `Document`
+### Document`
 
 It's never been easier to customize the root document of your website! `Document` is an optional (and again, recommended) react component responsible for rendering the HTML shell of your website.
 
@@ -229,7 +229,7 @@ export default {
 
 Since JSX is now being used in this static.config.js file, you need to import React at the top of the file; add this: `import React from 'react'`
 
-### `devServer`
+### devServer`
 
 An `Object` of options to be passed to the underlying `webpack-dev-server` instance used for development.
 
@@ -246,15 +246,15 @@ export default {
 }
 ```
 
-### `renderToElement`
+### renderToElement`
 
 **Warning:** This option has been deprecated. Please use the [Node API hook - beforeRenderToElement](https://github.com/Vinnl/react-static/tree/patch-3/docs/plugins#beforerendertoelement-function) instead.
 
-### `renderToHtml`
+### renderToHtml`
 
 **Warning:** This option will be removed in a future version. Please use the [Node API hook - beforeRenderToHtml](https://github.com/Vinnl/react-static/tree/patch-3/docs/plugins#beforerendertohtml-function) instead
 
-### `entry`
+### entry`
 
 The name of the entry file as a string, relative to `paths.src`. This defaults to:
 
@@ -265,7 +265,7 @@ export default {
 }
 ```
 
-### `paths`
+### paths`
 
 An `object` of internal directories used by react-static that can be customized. Each path is relative to your project root and defaults to:
 
@@ -285,7 +285,7 @@ export default {
 }
 ```
 
-### `outputFileRate`
+### outputFileRate`
 
 An optional `Int`. The maximum number of files that can be concurrently written to disk during the build process.
 
@@ -296,7 +296,7 @@ export default {
 }
 ```
 
-### `prefetchRate`
+### prefetchRate`
 
 An optional `Int`. The maximum number of inflight requests for preloading route data on the client.
 
@@ -307,7 +307,7 @@ export default {
 }
 ```
 
-### `disableDuplicateRoutesWarning`
+### disableDuplicateRoutesWarning`
 
 An optional `Boolean`. Set to `true` to disable warnings of duplicate routes during builds.
 
@@ -318,7 +318,7 @@ export default {
 }
 ```
 
-### `disableRoutePrefixing`
+### disableRoutePrefixing`
 
 An optional `Boolean`. Set to `true` to disable prefixing link href values and the browser history with `config.basePath`.
 Useful if you are using a variable basePath such as /country/language/basePath.
@@ -330,7 +330,7 @@ export default {
 }
 ```
 
-### `maxThreads`
+### maxThreads`
 
 An optional `Number` of maximum threads to use when exporting your site's pages. By default this is set to `Infinity` to use all available threads on the machine React Static is running on.
 
@@ -343,7 +343,7 @@ export default {
 }
 ```
 
-### `minLoadTime`
+### minLoadTime`
 
 An optional `Number` of milliseconds to show the loading spinner when templates, siteData or routeData are not immediately available. If you are preloading aggressively, you shouldn't see a loader at all, but if a loader is shown, it's a good user experience to make is as un-flashy as possible.
 
@@ -354,7 +354,7 @@ export default {
 }
 ```
 
-### `disablePreload`
+### disablePreload`
 
 Set this boolean to `true` to disable all preloading. This is mostly meant for debugging at this point, but the internal mechanics could soon be converted into a condition to either preload or not based on the client (mobile, slow-connection, etc)
 
@@ -365,7 +365,7 @@ export default {
 }
 ```
 
-### `babelExcludes`
+### babelExcludes`
 
 We are running Babel seperately for your own sources and externals. The Babel configuration for your own sources can be manipulated the normal way. The one for `node_modules` can not, since it's a bit special. We try to compile them with a bare minimum, but sometimes some modules gives you trouble (e.g. [mapbox-gl](https://github.com/mapbox/mapbox-gl-js/issues/3422))
 This option gives you the ability to exclude some modules from babelifying.
@@ -378,7 +378,7 @@ export default {
 }
 ```
 
-### `productionSourceMaps`
+### productionSourceMaps`
 
 Set this flag to `true` to include source maps in production.
 
