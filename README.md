@@ -42,23 +42,21 @@ React-Static is a fast, lightweight, and powerful progressive static site genera
 
 1. Install the CLI tool:
 
-```bash
-$ npm i -g react-static
-# or
-$ yarn global add react-static
-```
+    ```
+    $ npm i -g react-static
+    ```
 
 2. Start a new project!
 
-```bash
-$ react-static create
-```
+    ```
+    $ react-static create
+    ```
 
 3. Need some help?
 
-```bash
-$ react-static --help
-```
+    ```
+    $ react-static --help
+    ```
 
 ## Documentation
 
