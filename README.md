@@ -1,4 +1,4 @@
-![React Static Logo](https://github.com/react-static/react-static/raw/master/media/react-static-logo-2x.png)
+![React Static Logo](https://raw.githubusercontent.com/react-static/react-static/master/media/react-static-logo-2x.png)
 
 <br/>
 
