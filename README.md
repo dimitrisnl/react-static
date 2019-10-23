@@ -14,19 +14,6 @@ A **progressive static-site generator** for React.
 
 React-Static is a fast, lightweight, and powerful progressive static site generator based on React and its ecosystem. It resembles the simplicity and developer experience you're used to in tools like **Create React App** and has been carefully designed for **performance, flexibility, and user/developer experience**.
 
-## Highlights
-
-- ⚛️:100% React (and friends!)
-- 🚀:Blazing fast builds and performance.
-- 🚚:Data Agnostic. Supply your site with data from anywhere, however you want!
-- ✂️:Automatic code and data splitting!
-- 💥:Instant navigation and page views
-- ☔️:Progressively Enhanced and mobile-ready
-- 🎯:SEO Friendly.
-- 🥇:React-centric developer experience.
-- 😌:Painless project setup & migration.
-- 💯:Supports 100% of the React ecosystem. Including CSS-in-JS libraries, custom Query layers like GraphQL, and even Redux.
-- 🔥:Hot Reloadable out-of-the-box. Edit React components, styles and even data in real-time.
 
 ## Sites Built with React-Static
 
