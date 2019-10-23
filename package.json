@@ -1,5 +1,6 @@
 {
   "private": true,
+  "version": "7.2.2",
   "scripts": {
     "release:next": "lerna publish prerelease --preid beta --dist-tag next",
     "release": "lerna publish",
